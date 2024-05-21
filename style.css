@@ -1,0 +1,76 @@
+body{
+    /* Color de fondo */
+    /* background-color: #FFD6FF;; */
+    /* background: no-repeat center/100% url(); */
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    background: linear-gradient(to top, #FFD6FF 20%, #FFFFFF 40%); /*degradado*/
+}
+
+h1{
+    font-family: "Orbitron",sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color:blueviolet;
+}
+
+h3{
+    font-size: 30px;
+    font-family: "Orbitron", sans-serif;
+    color:blueviolet;/* Color de texto */
+}
+/* # indica que es un ID */
+/* . indica que es una clase */
+.dw0{
+    /* pixeles (px) y porcentaje (%) este de adapta mejor a la pantalla dependiendo el tamaño */
+    width: 100%; /*ANCHO*/
+}
+
+/* Para modificar CSS de un elemento en particular HTML, asignamos una clase (class)
+y esa la "llamamos" en el CSS con un punto ( . ) antes del 
+.dw2{
+     Anchura 
+    width: 100%;
+    redonder esquinas de imagenes 
+    border-radius: 20px; }*/
+    
+/* Editar div del menu */
+.menu {
+    /* Div flexible para moverse con los elementos dentro de sí */
+    display: flex;
+    /* En columna */
+    flex-direction: column;
+    /* Alinea ítems de forma centrada */
+    align-items: center;
+}
+/* Anclas del menú */
+a{
+    color: #FFFFFF;
+    /* viñetas - linea debajo del texto */
+    text-decoration: none;
+    font-size: 30px;
+    /* ANCLAS COMO BOTONES */
+    background-color: #E7C6FF;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+a:hover{
+    background-color: #B8C0FF;
+    color: white;
+}
+
+/* Aqui se va a modificar el texto que contiene la clase container */
+.container{
+    display: flex;
+    background-color: aquamarine;
+    width: 100%; /* Ancho del contenedor */
+    margin: 1 auto; /* Centrar el contenedor en la pagina */
+}
+.dw4{
+    max-width: 300px;
+    align-content: center;
+    border: 3px solid #FFFFFF;
+    border-radius: 10 px;
+    margin-right: 50px; /* Añadir un margen izquierdo para separar la imagen del texto */
+}
