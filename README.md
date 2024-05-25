@@ -1,7 +1,7 @@
 # PPweb
-#Primera Página Web
+# Primera Página Web
 
-##Descripción
+## Descripción
 En mi primer proyecto de desarrollo web, creé una página sencilla utilizando HTML y CSS.
  
 - **HTML**: La estructura de la página está construida con HTML, donde implemente los elementos básicos como encabezados, párrafos, imágenes y enlaces. 
